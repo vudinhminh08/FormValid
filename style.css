@@ -1,0 +1,90 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+.modal_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal_body {
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    z-index: 1;
+    border-radius: 5px;
+}
+.modal_inner {
+    
+    
+
+}
+.auth-form_header {
+
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.auth-form_heading {
+    
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--text-color); 
+    
+
+}
+.auth-form_form {
+    margin-top: 15px;
+    padding: 0 32px;
+}
+.auth-form_input {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 30px;
+    
+    font-size: 1.005rem;
+    outline: none;
+    
+
+}
+.auth-form_input:focus {
+    border-color: #888;
+}
+.auth-form_under {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.btn-register {
+    min-width: 142px;
+    height: 36px;
+    color: aliceblue;
+    background-color: orangered;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+}
+.btn-register:active {
+    border-color: #888;
+    
+}
+input:invalid:hover {
+    border-color: red;
+}
+input,
+input:valid {
+    border-color: #ccc;
+}
